@@ -9,14 +9,18 @@ body {
 -----------------------------*/
 
 .margin {
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.container {
+    margin-bottom: 100px;
 }
 
 .nav-icons {
@@ -67,4 +71,13 @@ h1 {
 
 .helf-width img {
     width: 100%;
+}
+
+.brands-logo {
+    border: 0.01px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 15px 0px;
+    margin-top: 120px;
 }
