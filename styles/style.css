@@ -63,7 +63,7 @@ main {
       top part style start
 -----------------------------*/
 
-h1 {
+.h1-tag {
     font-weight: 700;
     font-size: 52px;
     color: #3A3A3A;
@@ -146,7 +146,42 @@ h1 {
     padding-right: 16px;
 }
 
+.see-details {
+    text-align: right;
+    margin-top: 24px;
+}
+
+.see-details a {
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    font-size: 16px;
+}
+
 
 /*--------------------------------
   popular and card section end 
 ----------------------------------*/
+
+
+/*-----------------------
+      explore part 
+-------------------------*/
+
+.media-star {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 80px;
+}
+
+.media-person {
+    width: 100%;
+}
+
+.Join-btn a {
+    text-decoration: none;
+    background: #E02C6D;
+    padding: 10px 24px;
+    font-size: 16px;
+    color: white;
+}
