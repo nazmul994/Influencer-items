@@ -33,6 +33,7 @@ main {
 -----------------------------*/
 
 .margin {
+    margin-top: 24px;
     margin-right: 120px;
     margin-left: 120px;
 }
